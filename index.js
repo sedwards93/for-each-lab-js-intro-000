@@ -9,3 +9,7 @@ function iterate(callback) {
   lotteryNumbers.forEach(callback)
   return lotteryNumbers
 }
+
+function doToArray(array, callback) {
+  array.forEach(callback)
+}
